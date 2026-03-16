@@ -4,6 +4,8 @@ Strings
 
 Lists
     It is a mutable sequence of values
+    created using []
+    It is ordered
     Lists Methods
         l.append(val) # add one element at the end
         l.insert(idx, val) # insert element at idx
@@ -11,10 +13,14 @@ Lists
         l.revrse() # reverses order
 
 Tuples
-
+    Immutable sequence of values
+    created using ()
 
 Dictionaries
-
+    key:value pairs
+    keys are unique
+    It is Mutable and unordered
 
 Sets
-    
+    Collection of unique elements
+    It is Unoredered
