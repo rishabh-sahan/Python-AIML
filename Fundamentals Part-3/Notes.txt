@@ -1,0 +1,20 @@
+Strings
+    It is a sequnce of characters
+    Strings as a datatype is immutable in python
+
+Lists
+    It is a mutable sequence of values
+    Lists Methods
+        l.append(val) # add one element at the end
+        l.insert(idx, val) # insert element at idx
+        l.sort() # arranges in increasing order
+        l.revrse() # reverses order
+
+Tuples
+
+
+Dictionaries
+
+
+Sets
+    
