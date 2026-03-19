@@ -1,0 +1,25 @@
+File IO -> Input & Output
+- Reading from a file
+- Writing to a file
+
+File Operations:
+    Open, Read, Write, & Close
+
+f = open('filename.txt', 'mode')
+    - 'r' -> Read (default)
+    - 'w' -> Write (overwrites existing content)
+ 
+Exception Handling
+    try, except, else, finally
+
+List Comprehensions
+    Output for item in iterable if condition
+
+JSON Module -> JavaScript Object Notation
+    key-value pairs 
+
+    json.loads()
+    json.dumps()
+    json.load()
+    json.dump()
+    
