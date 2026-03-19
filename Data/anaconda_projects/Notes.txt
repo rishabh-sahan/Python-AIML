@@ -1,0 +1,12 @@
+Thinking Data
+    Data collection
+    Data cleaning (pre-processing)
+    Data analysis
+    Data visualization
+    Libraries - Numpy, Pandas, Matplotlib, Seaborn
+
+Cleaning & structuring our data
+    Data is inconsistent -> Mixed type of data
+    Missing data
+    Duplicate data
+    
