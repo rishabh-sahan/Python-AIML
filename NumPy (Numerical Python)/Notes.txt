@@ -32,4 +32,18 @@ Common NumPy Data Types
     Object: genric python objects - object
 
 Axes in Multi-dimensional arrays
-    
+
+Vectorization & Broadcasting
+
+Important Mathematical Functions
+    Aggregation
+        sum(), prod(), min(), max(), mean(), std(), var(), median(), argmin(), argmax()
+    Power
+        square(), sqrt(), pow(a, b)
+    Log & Exponential
+        log(), log10(), log2(), exp()
+    Rounding()
+        round(), floor(), ceil(), trunc()
+    EXTRAS
+        unique(), sort(), abs()
+
