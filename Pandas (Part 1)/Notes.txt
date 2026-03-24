@@ -1,0 +1,23 @@
+Data Science
+Steps Involved
+    Define the Problem
+    Data Collection
+    EDA (Exploratory Data Analysis)
+        Understand, Load and Structure
+        Clean Data
+        Statistical Summary
+        Visualization
+    Data Cleaning & Pre-processing
+    Feature Engineering
+    Modeling
+    Evaluation
+    Deployment
+
+Pandas
+    It is a primary tool for Data analysis and data manipulation
+    Pandas is built on top of the NumPy
+
+Data Structure
+    Series -> 1D Labelled array
+    DataFrame -> 2D Labelled array
+ 
