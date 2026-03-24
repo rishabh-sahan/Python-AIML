@@ -19,5 +19,58 @@ Pandas
 
 Data Structure
     Series -> 1D Labelled array
+        Properties of Series
+            Homogenous
+            Vectorized Operations
+            Handle Missing values with NaN
+            Mutable values, immutable size
+
     DataFrame -> 2D Labelled array
- 
+        Ways of creating dataframes
+            Dictionary of lists
+            List of lists
+            np arrays
+
+Pandas -> Usage with csv and json files
+    To read data 
+        from excel -> read_excel
+        from sql -> read_sql
+
+DataFrame Methods
+    df.head()
+    df.tail()
+    df.sample()
+    df.info()
+    df.shape()
+    df.describe()
+    df.columns()
+    df.nunique()
+
+Pandas -> Selecting Data
+    Select Columns
+    Select Rows (Label & Index based) - loc & iloc
+    Select Rows & Columns
+    Select single scalar value - at & iat
+
+Filtering Data
+
+and -> &
+or -> |
+not -> ~
+
+Pandas -> query() rules
+    Expression as a string
+    Column based refernece
+    Backtricks for col_namwe with space or special chars
+    Operators (&, |, ~, >=, >, <=, <, ==, etc)
+    @ to reference Python vars
+    Chained comparisons
+
+Pandas -> Cleaning Data
+    Handle Missing Values
+        isnull() / isna()
+        isnull().sum()
+        dropna()
+        fillna(value)
+        ffill()
+        bfill()
