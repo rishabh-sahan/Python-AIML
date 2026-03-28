@@ -86,3 +86,13 @@ Pandas -> Cleaning Data
         .str.strip()
         .str.split("")
         .str.contains(val, case=False)
+
+Pandas -> Transforming Data (Feature Engineering)
+                Transforming a data into create some new columns & some new features that improves a performance of a model
+            apply()
+            map()
+            assign()
+            replace(old, new)
+
+
+    
