@@ -17,3 +17,9 @@ Web Scraping - HTML pages, blogs/articles, social media pages etc
 Sensors & Devices - IoT devices, health wearables etc
 Surveys & Forms - customer satisfaction, feedback etc
 System Generated - logs, video feeds, synthetic data etc
+
+
+Databases -> SQL Databases(MySQL, PostgreSQL, etc) -> Relational -> Tables
+    Reliable
+    Relevant
+    Cost effective
