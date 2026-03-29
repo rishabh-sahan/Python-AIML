@@ -119,3 +119,16 @@ Melt & Pivot
     Pivot - Long to Wide format
     pivot(index, columns, values)
           KEEP 
+
+Basic Visualisation
+    hist()
+    plot()
+
+Merginig & Joining Data
+    Inner Join
+    Left Join
+    Right Join
+    Outer Join
+
+Data Concatenation
+    Stacking DataFrames on top of each other (rows) or side by side (columns)
