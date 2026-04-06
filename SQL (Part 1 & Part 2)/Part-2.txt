@@ -157,7 +157,7 @@ Practice Questions:
             GROUP BY customer_id
         ) AS summary
     
-    Views in SQL
+    Views in SQL:
         A view is a virtual table based on the result-set of an SQL statement.
         A view always shows up-to-date data.
         The database engine recreates the view, every time a user queries it.
@@ -201,7 +201,7 @@ Practice Questions:
     END;
 
     Example:
-    DELIMITER $$
+    DELIMITER $$ 
     CREATE PROCEDURE check_balance (IN acc_id INT)
     BEGIN
         SELECT balance
