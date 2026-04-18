@@ -12,6 +12,36 @@ using requests
     GET, POST, PUT, DELETE etc.
 
 Status Codes
-200 - Everthing works successfully
+200 - Everthing works successfully / OK
+301/302 - Redirect
+400 - Bad request
+401 - Unauthorized
+403 - Forbidden
 404 - Page not found
 500 - Internal Server error
+
+Web Scraping
+    Involves programatically extracting data from websites
+
+BeautifulSoup 
+Methods
+    find()
+    find_all()
+    find_parent()
+    find_next()
+    find_previous()
+
+# css selectors
+    select()
+    select_one()
+
+# attributes
+    get()
+    .attrs
+
+Navigating DOM - Document Object Model
+    parent
+    childern
+    descendants
+    next_sibling()
+    previous_sibling()
