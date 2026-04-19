@@ -1,0 +1,60 @@
+Data Visualization
+
+EDA
+Model Evaluation
+Communicate
+Business Decision / Research Papers
+
+How to Plot?
+    Line Plot
+    Pie Chart
+    Histograms
+    Scatter Plots
+
+Problem -> Type of plot / chart
+Less Noise
+Story Telling
+Clarity -> Labels, Abbrevation, Units, Scales, Color
+
+Matplotlib
+    library for creating static, animated & interactive visualizations
+
+import matplotlib.pyplot as plt
+    pyplot -> Drawing toolkit -> Functions
+
+Exploring Methods with Movies Data
+    title()
+    xlabel()
+    ylabel()
+    legend()
+
+Format Strings
+    A format string consists of a part for color, marker and line:
+        fmt = '[marker][line][color]'
+
+    color
+    marker
+    linestyle
+    line width
+
+Other additional Methods & Attributes
+    style.available()
+    style.use()
+    grid()
+    tight_layout()
+    savefig("abc.png")
+
+Other Plot Methods
+    plt.plot(x, y) - Line Plot
+    plt.bar(x, height) - Vertical bar chart
+    plt.barh(y, width) - Horizontal bar chart
+    plt.scatter(x, y) - Scatter plot
+    plt.pie(data) - Pie chart
+    plt.hist(data, bins) - Histogram
+    plt.boxplot(data) - Box plot
+
+Bar Charts
+    A bar plot (or bar chart) is a graph that displays categorical data using rectangular bars.
+    Each bar's height (or length, in horizontal bars) represents a value.
+
+plt.text()
