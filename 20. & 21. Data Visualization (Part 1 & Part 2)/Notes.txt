@@ -94,3 +94,15 @@ Wedgeprops - define (edgecolor, linewidth, linestyle, alpha, fill...)
 explode - highlights a slice by pulling it out 
 startangle - rotate the chart 
 shadow - adds 3D effect or makes the chart circular
+
+Histograms
+A histogram shows the distribution of numerical data by:
+    Dividing values into bins (ranges)
+    Counting how many values fall into each bin (frequency)
+
+Ex:
+            70 - 100
+    inclusives - exclusives
+    left value - right value
+
+bins - continuous range
