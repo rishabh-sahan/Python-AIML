@@ -58,3 +58,39 @@ Bar Charts
     Each bar's height (or length, in horizontal bars) represents a value.
 
 plt.text()
+
+Horizontal Bar Charts
+
+Scatter Plots
+    A scatter plot shows the realationship between two variables by plotting points on a 2D plane
+    
+    Corelated
+    Outliers
+    Clusters
+
+Cutomizations
+    color
+    size
+    marker
+    transparency
+    colormap
+    colorbar
+
+Annotations
+    plt.annotate("text",xy=(X_point, y_point), xytext=(x_text, y_text))
+
+Multiple Data
+
+Pie Charts
+A pie chart is a circular chart divided into slices to show relative proportions of a whole.
+    Each slice = a category
+    Size of slice = value of that category relative to total
+Prefer them only for few categories: (max of 5-6 categories)
+
+Customizations
+autopct="%1.1f%%" - shows percentage of each slice
+colors - add custom colors
+Wedgeprops - define (edgecolor, linewidth, linestyle, alpha, fill...)
+explode - highlights a slice by pulling it out 
+startangle - rotate the chart 
+shadow - adds 3D effect or makes the chart circular
