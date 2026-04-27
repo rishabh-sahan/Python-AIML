@@ -78,6 +78,3 @@ Types of Events:
     Dependent Events: The outcome of one event affects the probability of the other.
         
     Complementary Events: Complement event is if one occurs exactly when the other does not.
-=======
-Math for AI - Probability
->>>>>>> 2843a908694336b1c9d1412a52b69362a2e536a5
