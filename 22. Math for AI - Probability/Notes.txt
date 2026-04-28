@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 Math for AI 
     Probability - Fundamentals, Bayes, Conditional, Distribution
     Linear Algebra - Vectors, Matrices 
@@ -74,7 +73,91 @@ Types of Events:
         P(A ∩ B) = 0
     Non-Mutually Exclusive Events
     Independent Events: The outcome of one event does not affect the probability of the other.
-        P(A ∩ B) = P(A)*P(B)
-    Dependent Events: The outcome of one event affects the probability of the other.
-        
+        P(A ∩ B) = P(A) * P(B)
+    Dependent Events: The outcome of one event affects the probability of the other.        
     Complementary Events: Complement event is if one occurs exactly when the other does not.
+
+Note:
+    OR - ∪ (Union)
+    AND - ∩ (Intersection)
+
+Rule1 - Complementary Rule
+    If A is an event, then its complement A^c (event not happening) has probability:
+        P(A^c) = 1-P(A)
+
+Rule2 - Addition Rule
+    Mutually exclusive events
+        If A and B cannot happen together: P(A or B) = P(A) + P(B)
+            P(A ∪ B) = P(A) + P(B)
+    Non-Mutually exclusive events
+        If A and B can happen together: P(A or B) = P(A) + P(B) - P(A ∩ B)
+            P(A ∪ B) = P(A) + P(B) - P(A ∩ B)
+
+Examples:
+    1. Roll a die. Event A is rolling a 2, event B is rolling a 4. Compute P(A ∪ B).
+        P(A ∪ B) = P(A) + P(B)
+            S = {1,2,3,4,5,6}
+            A = {2} = 1/6
+            B = {4} = 1/6
+                1/6 + 1/6 = 2/6 = 1/3
+
+    2. Roll a die. Event A is we get an even number, event B is getting a multiple of 3. Compute P(A ∪ B) -> (Non-Mutually Exclusive Events)
+        P(A c B) = P(A) + P(B) - P(A ∩ B)
+            A = {2,4,6}
+            B = {3,6}
+                3/6 + 2/6 - 1/6
+                4/6 = 2/3
+
+Rule3 - Multiplication Rule
+    Independent events
+        If A and B are independent (one doesn't affect the other): P(A and B) = P(A) * P(B)
+            P(A ∩ B) = P(A) * P(B)
+
+    Dependent events
+        If A and B are dependent (affect each other): P(A and B) = P(A) * P(B | A)
+            P(A ∩ B) = P(A) * P(B | A)
+                                P(B | A) -> Probability of event B occuring, Assuming that A has already occured.
+
+Examples: 
+    1. Roll a die and flip a coin. What is the probability that we roll a 6 & get a Head? -> (Independent Events)
+        P(A ∩ B) = P(A) * P(B)
+        P(6 ∩ H) = P(6) * P(H) 
+            1/6 * 1/2 = 1/12
+
+    2. A bag contains 5 balls with numbers 1,2,3,4,5. Two are drawn without replacement. What is the probability that first is even & second is also even? -> (Dependent Events)
+        P(A ∩ B) = P(A) * P(B | A)
+        2/5 * 1/4 = 2/20 = 1/10
+
+Practice Problem 1
+    A box contains 4 white balls and 6 black balls. One ball is drawn at random.
+    A fair coin is then tossed.
+    If A = event of drawing a white ball & B = event of getting a head. What is P(A ∩ B) ?
+        P(A) = 4/10 = 2/5
+        P(B) = 1/2
+            P(A ∩ B) = P(A) * P(B)
+                     = 2/5 * 1/2 = 1/5
+
+Practice Problem 2
+    Two coins are tossed. What is the probability of getting at least one tail ?
+        S = {HH,HT,TH,TT}
+        E = Atleast one tail
+        E^c = notail = n(E^c) = 1
+        P(E^c) = 1/4
+        P(E) = 1-1/4 = 3/4
+
+Practice Problem 3
+    A single card is drawn from a standard deck of 52 cards.
+    Let A = event that the card is a face card (Jack, Queen, King).
+    Let B = event that the card is a heart.
+    Find P(A ∪ B). -> (Non-Mutually Exclusive Events)
+        P(A) = 12/52
+        P(B) = 13/52
+            P(A ∪ B) = P(A) + P(B) - P(A ∩ B)
+                    = 12/52 + 13/52 - 3/52
+                    = 25-3/52 = 22/52 = 11/26
+
+Conditional Probability
+    It is the probability of an event B occuring given that another event A has already happened.
+        We write it as: P(B | A) = P(A ∩ B) / P(A)
+            P(B | A) -> Probability of B given given A already occured
+        
