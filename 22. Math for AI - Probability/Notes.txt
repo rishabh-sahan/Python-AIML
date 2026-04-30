@@ -173,4 +173,5 @@ Example:
                    = 25/100 / 40/100
             P(B/A) = 25/40 = 5/8
 
-vvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvvv
+
+
