@@ -180,3 +180,95 @@ Law of Total Probability
     Where:
         A1, A2,.....An are mutually exclusive and exhaustive events (one of them must happen).
         P(B | Ai) is the probability of B given Ai occurred.
+
+Example:
+MachineA: Production Share - 60% Defective Rate - 2%
+MachineB: Production Share - 40% Defective Rate - 5%
+What is the probability that a randomly chosen product is defective?
+    B -> Product is defective
+   / \
+  A   B 
+A = MachineA
+B = MachineB
+    P(D) = P(D/A)*P(A) + P(D/B)*P(B)
+    P(A) = 0.6
+    P(B) = 0.4
+    P(D/A) = 0.02
+    P(D/B) = 0.05
+        P(D) = P(D/A)*P(A) + P(D/B)*P(B)
+             = 0.02*0.6 + 0.05*0.4
+             = 0.012 + 0.020
+             = 0.032 =~ 3.2%
+
+Bayes' Theorem
+    P(A | B) = (P(B | A) * P(A)) / P(B)
+Where:
+    P(A | B) = probability of event A given event B occurred
+    P(B | A) = probability of event B given event A occurred
+    P(A) = probability of event A before knowing B
+    P(B) = total probability of event B
+
+Example:
+You have an email filtering system:
+20% of all emails are spam -> P(spam) = 0.2
+The filter correctly identifies spam 90% of the time - P(filter says spam | spam) = 0.9
+The filter false flags non-spam emails 5% of the time - P(filter says spam | not spam) = 0.05
+If the filter marks an email as spam, what is the probability that it is actually spam ?
+
+Event A -> Actually spam email
+Event B -> Marks an email as a spam
+
+    P(spam / filter says spam) = P(A/B)
+    P(A/B) = (P(B/A) * P(A)) / P(B)
+           = 0.9 * 0.2 / 0.22
+          =~ 0.818 ~ 81%
+P(B) = P(B/E1)*P(E1) + P(B/E2)*P(E2)
+    = 0.9*0.2 + 0.05*0.8
+    = 0.18 + 0.4 = 0.22
+
+Practice:
+A factory has two machines producing pens: Machine1 produces 70% & M2 produces 30% of the pens.
+The defect rates are:
+Machine1: 4% of its pens are defective.
+Machine2: 10% of its pens are defective.
+If a pen selected at random is defective, what is the probability that it was made by Machine2?
+A -> Pen is defective
+    E1 -> Made by Machine1
+    E2 -> Made by Machine2
+B -> Pen made by Machine2
+
+P(B/A) = (P(A/B)*P(B)) / P(A)
+P(A/B) = 0.1
+P(B) = 0.3
+P(A) = P(A/E1)*P(E1) + P(A/E2)*P(E2)
+     = 0.04*0.7 + 0.1*0.3
+     = 0.028 + 0.03 = 0.058
+
+P(B/A) = (P(A/B)*P(B)) / P(A)
+       = 0.1 * 0.3 / 0.058 =~ 0.517 ~ 51.7%
+
+Random Variable
+    A random variable (RV) is a numerical quantity that depends on the outcome of a random experiment.
+    Discrete RV - countable values (integer) -> Coin toss {H, T}, Dice
+    Continuous RV - any value in a range (fractions) -> Weight, Height, Income
+
+Other Conceepts
+Mean: Average value (mu) = sum of values / count of all valus
+Median: Middle value 
+Mode: Most Frequent value
+Weighted Mean -> Some values contribute more than otheer values. Ex: CGPA, GPA
+
+Using Variance & Standard Deviation we measure how spread out the numbers are from the mean.
+Variance (σ)^2 = ∑ (xi - mu)^2 / n
+√var = σ = Standard Deviation = √∑(xi - mu)^2 / n
+
+∑(xi - mu) / n -> Mean absolute deviation
+
+Probability Distributions
+    A probability distribution describes how probabilities are assigned to all possible outcomes.
+    It tells you how likely different outcomes are.
+Types:
+    Discrete Probability Distribution - Discrete RV i.e. outcomes we can count. -> Coin Toss, Dice Ro
+        Eg: Binomial Distribution
+    Continuous Probability Distribution - Continuous RV i.e. outcome can be any number in range.
+        Eg: Uniform Distribution, Normal Distribution
