@@ -173,5 +173,10 @@ Example:
                    = 25/100 / 40/100
             P(B/A) = 25/40 = 5/8
 
+Law of Total Probability
+    It is used to find the probability of an event B by breaking it into several mutually exclusive cases.
+    P(B) = P(B | A1) * P(A1) + P(B | A2) * P(A2) +....+ P(B | An) * P(An)
 
-
+    Where:
+        A1, A2,.....An are mutually exclusive and exhaustive events (one of them must happen).
+        P(B | Ai) is the probability of B given Ai occurred.
