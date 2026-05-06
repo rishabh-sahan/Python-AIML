@@ -1,0 +1,49 @@
+Math for AI - Linear Algebra
+
+Linear Algebra
+P = Perpendicular
+H = Hypotenus
+B = Base
+    sinθ = P / H
+    cosθ = B / H
+    tanθ = P / B
+
+Straight Lines
+Equation for Straight Line: y = mx + c
+    m is slope -> tanθ
+    c is intercept -> y-axis cross; x=0
+
+Example:
+P1(x1, y1) (2, 4)
+P2(x2, y2) (5, 10)
+
+tanθ = P / B
+    = y2 - y2 / x2 - x1 = m
+m = 10 - 4 / 2 - 5
+    = 6 / 3 = 2
+
+Coordinate Geometery
+    Distance between 2 Points
+For 2D Plane:
+        d = √(x2-x1)^2 + (y2-y1)^2
+
+For 3D:
+    d = √(x2-x1)^2 + (y2-y1)^2 + (z2-z1)^2
+
+Parallel & Perpendicular Lines
+Parallel Lines:
+    L1: y = mx + c1
+    L2: y = mx + c2
+        m1 = m2 = m
+
+Perpendicular Lines:
+    L1: y = m1x + c
+        m1 = tanθ
+    L2: y = -1/m1 x + c2
+        m2 = tan(90 + θ) = sin(90 + θ) / cos (90 + θ)
+            = cosθ / - sinθ
+            = -1 / tanθ
+        m2 = -1 / m1 
+        m1 * m2 = -1
+
+Distance between 2 parallel lines
