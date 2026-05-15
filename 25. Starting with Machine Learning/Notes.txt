@@ -1,7 +1,7 @@
 Machine Learning
     ML is a part of computer science where we teach computers to learn from data, find patterns & make decision or predictions.
-ML Types:
 
+ML Types:
 Supervised Learning
     Labelled data: Labelled data is a raw data (such as images, text or audio) that has been paired with a meaningful tag, label or annotation that informs a machine learning model about the desired outcome. (ip -> op)
         Classification (classes / categories)
