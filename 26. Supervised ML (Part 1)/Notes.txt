@@ -33,3 +33,24 @@ Algorithms
     Decision Trees -> Used in both regression & classification problems 
     Naive Bayes -> Used in classification problems
     SVM -> Support vector machine -> Used in both regression & classification problems
+
+Linear Regression
+Best Fit Line
+    error (residual error) = actual value - predicted value
+y = c + mx
+Theta of straight line
+    hθ(X) = θ0 + θ1 X1
+        hθ(X) -> hypothesis function
+        θ0 -> bias / intercept
+        θ1 -> 1st parameter / 1st coefficient
+        X1 -> 1st feature
+    X1, X2, X3, ...... Xn -> n input features
+    hθ(X) = θ0 + θ1 X1 + θ2 X2 ...... θn Xn
+
+Cost Function
+    Measures how well the model's predictions match the actual data
+
+Mean Squared Error (MSE)
+J(θ) = 1/2*m ∑^m i=1 (hθ(X^(i) - y^(i) )^2
+
+data points = (1,2)(2,4)(3,6)
