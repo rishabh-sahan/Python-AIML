@@ -57,3 +57,8 @@ data points = (1,2)(2,4)(3,6)
 
 Gradient Descent
     Gradient Descent is an iterative optimization algorithm used to minimize a cost function by adjusting model parameters in the direction of the steepest descent of the functions gradient.
+
+Summary:
+    θ0, θ1 - Initial values
+    Make predictions + calculate J(θ)
+    Convergence theorem to update parame
