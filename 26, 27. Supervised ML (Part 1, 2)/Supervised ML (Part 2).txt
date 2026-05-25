@@ -1,0 +1,9 @@
+Feature Engineering - Encoding
+
+Feature Engineering
+    Transforming, creating, or selecting input variables to make our model perform better.
+Encoding Categorical Variables
+Create Useful Derived Features
+Interaction Features
+Scaling Numeric Features
+Feature Selection
