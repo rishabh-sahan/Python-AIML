@@ -2,8 +2,20 @@ Feature Engineering - Encoding
 
 Feature Engineering
     Transforming, creating, or selecting input variables to make our model perform better.
+
 Encoding Categorical Variables
 Create Useful Derived Features
 Interaction Features
 Scaling Numeric Features
+    Normalization
+    Standardization
 Feature Selection
+
+Dummy Variable Trap
+    hθ(x) = θ0 + θ1x1 + θ2x2 + θ3x3
+    Inflated errors
+    Unstable coefficients
+    Remove redundant variable
+
+Overfitting
+    Model is too complex
