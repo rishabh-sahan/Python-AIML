@@ -19,3 +19,50 @@ Dummy Variable Trap
 
 Overfitting
     Model is too complex
+Training -> 95% -> Low Bias - Error from wrong assumptions
+Test -> 65% -> High Variance - Sensitivity to small data changes
+
+Underfitting
+    Model is too simple
+Training -> 70% -> High Bias
+Test -> 65% -> Low Variance
+
+Desired Output -> Optimal Model
+    Low Bias
+    Low Variance
+
+Overfitting & Underfitting
+Fixes
+Underfitting
+    High Bias
+    Increase Model Complexity
+    Increase no of parameters
+    Increase no of neurons / layer
+    Increase no of layers
+    Decrease Regularization
+    Increase no of Features
+    Data does not help
+
+Overfitting
+    High Variance
+    Decrease Model Complexity
+    Decrease no of parameters
+    Decrease no of neurons / layer
+    Decrease no of layers
+    Increase L1/L2 Regularization
+    Decrease no of Features
+    Data increase does help
+
+Regularization - generalization
+Lasso & Ridge Regression
+    Lasso Regression (L1 regularization)
+        J(θ) = 1/2.m mΣi=1 (hθ(x)^(i) - y^(i))^2 + λ.nΣj=1 |θj|
+        Prevents Overfitting
+        Helps in feature selection
+
+    Ridge Regression (L2 regularization)
+        J(θ) = 1/2.m mΣi=1 (hθ(x)^(i) - y^(i))^2 + λ.nΣj=1 |θj|^2 
+        J(θ) = error + λ . (Slope)^2
+        Prevents Overfitting
+        
+    ElasticNet Regression (Combination of L1 & L2 regularization)
