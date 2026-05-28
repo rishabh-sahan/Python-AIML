@@ -66,3 +66,14 @@ Lasso & Ridge Regression
         Prevents Overfitting
         
     ElasticNet Regression (Combination of L1 & L2 regularization)
+
+Logistic Regression
+for Classification
+sigmoid activation fnx -> 1/1+e^-z = f(z) ; e = euler's num
+                                              = 2.718
+hθ(x) = g(θ0 + θ1x1)
+hθ(x) = 1 / 1 + e^-(θ0 + θ1x1)
+hθ(x) = 1 / 1 + e^-θTX
+
+Cost Function (log loss / binary cross entropy)
+J(θ) = -1/m mΣi=1 (y^(i) . log(y^(i)) + (1-y) . log(1-y^(i)))
