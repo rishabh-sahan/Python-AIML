@@ -1,2 +1,21 @@
 Transforming Data
 Normalization & Standardization
+
+Normalization (Min-Max Scaling)
+    Xscaled = X - Xmin / Xmax - Xmin 
+
+Standardization (Z-score Scaling)
+    Xstandardized = x - μ / σ
+
+with StandardScaler
+    fit() - Compute the mean and std dev
+    fit_transform() - Fit to data, then transform it
+    transform() - uses mean & std dev computed by fit
+
+Evaluation Metrics
+for classification
+    Confusion Matrix
+Accuracy
+Precision
+Recall (Sensitivity)
+F1 Score
